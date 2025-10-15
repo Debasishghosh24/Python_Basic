@@ -29,7 +29,7 @@ def calculate_calories(activity, duration_minutes, weight_kg):
     
     goal = 500
     if calories_burned >= goal:
-        print("🎯 Congratulations! You've met your daily goal of 500 calories!")
+        print(" Congratulations! You've met your daily goal of 500 calories!")
     else:
         
         remaining = goal - calories_burned

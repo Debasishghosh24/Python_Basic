@@ -9,7 +9,7 @@ def assign_table(party_size, available_tables):
         return "Please wait"
     assigned_table = min(suitable_tables, key=lambda t: suitable_tables[t])
     
-    print(f"✅ Assigned Table Number: {assigned_table} (Capacity: {available_tables[assigned_table]})")
+    print(f" Assigned Table Number: {assigned_table} (Capacity: {available_tables[assigned_table]})")
     return assigned_table
 
 
